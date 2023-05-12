@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkins"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CollectionOfFilms2">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Последнее просмотренное"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/nuller"
+                android:layout_width="180dp"
+
+                android:layout_height="245dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/intestelasr" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/films_name"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="610dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/backinfut"
+                            android:layout_marginTop="16dp"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/backvutures"
+                            android:onClick="perehodk1film" />
+
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/intestelar"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/intestelasr"
+                            android:onClick="perehodk2film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/grinmilya"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/grinmill"
+                            android:onClick="perehodk3film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/vlastickolec"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/vlastelinconesc"
+                            android:onClick="perehodk4film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/krimctivoo"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/kriminalctivo"
+                            android:onClick="perehodk5film" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/forsicgamp"
+                            android:layout_width="180dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_height="245dp"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/forestgamp"
+                            android:onClick="perehodk6film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/pobeging"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/pobegshaushenko"
+                            android:onClick="perehodk7film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/boychikclub"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/boyclub"
+                            android:onClick="perehodk8film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/sposkkshendr"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/spisokshendr"
+                            android:onClick="perehodk9film" />
+
+                        <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/tainacicicoco"
+                            android:layout_width="180dp"
+                            android:layout_height="245dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/tainacoco"
+                            android:onClick="perehodk10film" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
